@@ -1,5 +1,4 @@
 .main {
   scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
+  overflow-y: auto;
 }

@@ -1,5 +1,29 @@
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
-  min-height: 100vh;
-  /* scroll-snap-align: start; */
+  height: 100vh;
+  padding: 0 20px;
+  color: white;
+  background: linear-gradient(#363636, white);
+}
+
+.wrapper > h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.wrapper > p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: no-wrap;
+  overflow-x: scroll;
 }

@@ -1,9 +1,13 @@
 import styles from '@/styles/Intro.module.css';
 import Image from 'next/image';
 
-export function Intro() {
+interface IntroProps {
+  id: string;
+}
+
+export const Intro: React.FC<IntroProps> = ({ id }) => {
   return (
-    <main className={styles.wrapper}>
+    <main id={id} className={styles.wrapper}>
       <div className={styles.mainCard}>
         <div className={styles.introduction}>
           <div>
@@ -16,15 +20,17 @@ export function Intro() {
             I am a <span className={styles.accentText}>Software Engineer</span> based in Southern California.
           </h1>
         </div>
-        <Image
-          className={styles.profile}
-          src='/../public/jimmy.png'
-          width={400}
-          height={600}
-          quality={100}
-          alt='profile'
-        />
+        <div className={styles.profileContainer}>
+          <Image
+            className={styles.profile}
+            src='/../public/jimmy.png'
+            width={400}
+            height={600}
+            quality={100}
+            alt='profile'
+          />
+        </div>
       </div>
     </main>
   );
-}
+};

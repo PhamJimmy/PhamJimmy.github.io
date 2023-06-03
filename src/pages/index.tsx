@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '@/styles/index.module.css';
-import { Intro, Background, Navbar, Projects } from '@/components';
+import { Intro, Background, Navbar, Projects, Contact } from '@/components';
 
 export default function Home() {
   return (
@@ -12,8 +12,9 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Background />
-        <Intro />
-        <Projects />
+        <Intro id='home' />
+        <Projects id='projects' />
+        <Contact id='contact' />
       </main>
     </>
   );
