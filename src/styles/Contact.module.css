@@ -57,8 +57,9 @@
   .link:active,
   .link:focus {
     justify-content: start;
-    margin-left: 2rem;
+    margin-left: 3rem;
     flex-basis: 100%;
+    background-color: #6e07f3;
   }
   .email {
     margin-top: 0;

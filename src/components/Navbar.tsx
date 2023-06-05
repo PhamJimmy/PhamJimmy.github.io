@@ -9,6 +9,9 @@ export function Navbar() {
       <a className={styles.link} href='#projects'>
         PROJECTS
       </a>
+      <a className={styles.link} href='#recommendations'>
+        RECOMMENDATIONS
+      </a>
       <a className={styles.link} href='#contact'>
         CONTACT
       </a>

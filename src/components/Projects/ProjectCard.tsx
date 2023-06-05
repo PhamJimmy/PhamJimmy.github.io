@@ -5,7 +5,7 @@ interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  stack: string;
+  stack?: string;
   github?: string;
   demo?: string;
 }
@@ -16,9 +16,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, im
       <Image className={styles.image} src={image} width={400} height={200} alt={title} />
       <h1>{title}</h1>
       <p>{description}</p>
-      <p className={styles.stack}>
-        <span style={{ fontWeight: 600 }}>Tech stack:</span> {stack}
-      </p>
+      {stack && (
+        <p className={styles.stack}>
+          <span style={{ fontWeight: 600 }}>Tech stack:</span> {stack}
+        </p>
+      )}
       {github && (
         <a className={styles.github} href={github}>
           <button>GitHub Repo</button>

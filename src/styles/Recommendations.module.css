@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 160px);
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.container > h1,
+.container > p {
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.recommendations {
+  display: flex;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #6e07f3;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+  }
+  .recommendations {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
