@@ -17,7 +17,8 @@ export const Intro: React.FC<IntroProps> = ({ id }) => {
             </h1>
           </div>
           <h1>
-            I am a <span className={styles.accentText}>Software Engineer</span> based in Southern California.
+            I am <span className={styles.specialA}>a</span> <span className={styles.accentText}>Software Engineer</span>{' '}
+            based in Southern California.
           </h1>
         </div>
         <div className={styles.profileContainer}>

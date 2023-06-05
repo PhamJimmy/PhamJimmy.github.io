@@ -14,7 +14,7 @@ const Justin: React.FC = () => {
           I had the pleasure of having Jimmy on my team, working on redesigning the sign up and login flow. His
           <span className={styles.highlight}> attention to detail</span> allowed him to quickly pickup on the processes,
           patterns and styles used by the team and implement them himself. <br />
-          <br /> He is a quick study and <span className={styles.highlight}>isn&#39;t afraid to ask questions</span>
+          <br /> He is a quick study and <span className={styles.highlight}>isn&#39;t afraid to ask questions </span>
           for clarification, which allowed me to quickly build <span className={styles.highlight}>trust</span> in his
           abilities. I was able to delegate the{' '}
           <span className={styles.highlight}>building of complex React views and components</span> that required him to

@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   height: calc(100vh - 160px);
   margin: 0 auto;
-  padding: 80px;
 }
 
 .container > h1,
