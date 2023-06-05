@@ -24,7 +24,7 @@ const Justin: React.FC = () => {
           teammate!
         </p>
       }
-      image='/../public/justin.jpeg'
+      image='/justin.jpeg'
     />
   );
 };
@@ -44,7 +44,7 @@ const Ngon: React.FC = () => {
           any employer, he would be an asset to any organization.
         </p>
       }
-      image='/../public/ngon.jpeg'
+      image='/ngon.jpeg'
     />
   );
 };

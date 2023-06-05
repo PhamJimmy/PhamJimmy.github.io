@@ -21,14 +21,7 @@ export const Intro: React.FC<IntroProps> = ({ id }) => {
           </h1>
         </div>
         <div className={styles.profileContainer}>
-          <Image
-            className={styles.profile}
-            src='/../public/jimmy.png'
-            width={400}
-            height={600}
-            quality={100}
-            alt='profile'
-          />
+          <Image className={styles.profile} src='/jimmy.png' width={400} height={600} quality={100} alt='profile' />
         </div>
       </div>
     </main>

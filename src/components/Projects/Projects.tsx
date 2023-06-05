@@ -9,7 +9,7 @@ const PersonalPortfolio = () => {
       This helped me to better solidify my knowledge of Typescript, ReactJs, and NextJs.
       This is an ongoing project and will be updated whenever I work on something new and cool.'
       stack='Typescript, ReactJs, NextJs'
-      image='/../public/personal-portfolio.png'
+      image='/personal-portfolio.png'
       github='/'
     />
   );
@@ -23,7 +23,7 @@ const Dubsado = () => {
       I worked on the client-facing side of the application. 
       I migrated entire views from legacy AngularJS to ReactJs and helped to develop the new design system via Storybook.'
       stack='Typescript, ReactJs, MongoDB, NodeJs, ExpressJs, GraphQL, Apollo, Storybook'
-      image='/../public/dubsado.png'
+      image='/dubsado.png'
       demo='https://hello.dubsado.com/'
     />
   );
@@ -37,7 +37,7 @@ const PeriodicTables = () => {
       It allows restaurants to fully manage their table reservations and current seating.
       This was my first full-stack application, built all by myself.'
       stack='Javascrit, ReactJs, NodeJs, ExpressJs, PostgreSQL, KnexJs, Bootstrap'
-      image='/../public/periodic-tables.png'
+      image='/periodic-tables.png'
       github='https://github.com/PhamJimmy/restaurant-reservation-system'
       demo='https://restaurant-reservation-system-frontend.vercel.app/dashboard'
     />
@@ -49,7 +49,7 @@ const GitHub = () => {
     <ProjectCard
       title='GitHub'
       description='Check out my other repositories on Github to see what else I have been working on!'
-      image='/../public/mygithub.png'
+      image='/mygithub.png'
       github='https://github.com/PhamJimmy/'
     />
   );
