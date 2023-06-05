@@ -22,12 +22,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, im
         </p>
       )}
       {github && (
-        <a className={styles.github} href={github}>
+        <a target='_blank' className={styles.github} href={github}>
           <button>GitHub Repo</button>
         </a>
       )}
       {demo && (
-        <a className={styles.demo} href={demo}>
+        <a target='_blank' className={styles.demo} href={demo}>
           <button>Live Demo</button>
         </a>
       )}
