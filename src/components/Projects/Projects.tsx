@@ -10,7 +10,7 @@ const PersonalPortfolio = () => {
       This is an ongoing project and will be updated whenever I work on something new and cool.'
       stack='Typescript, ReactJs, NextJs'
       image='/personal-portfolio.png'
-      github='/'
+      github='https://github.com/PhamJimmy/PhamJimmy.github.io'
     />
   );
 };
