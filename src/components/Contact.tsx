@@ -14,15 +14,15 @@ export const Contact: React.FC<ContactProps> = ({ id }) => {
       </div>
       {/* Links with a logo and text to link to my github, linkedin, or other sites */}
       <div className={styles.links}>
-        <a href='https://github.com/PhamJimmy' className={styles.link}>
+        <a target='_blank' href='https://github.com/PhamJimmy' className={styles.link}>
           <Image src='/github.png' width={100} height={100} alt='github' />
           <p>github.com/PhamJimmy</p>
         </a>
-        <a href='https://www.linkedin.com/in/jimmy-pham-res/' className={styles.link}>
+        <a target='_blank' href='https://www.linkedin.com/in/jimmy-pham-res/' className={styles.link}>
           <Image src='/linkedin.png' width={100} height={100} alt='linkedin' />
           <p>linkedin.com/in/jimmy-pham-res/</p>
         </a>
-        <a href='mailto: JimmyPhamRes@gmail.com' className={`${styles.link} ${styles.email}`}>
+        <a target='_blank' href='mailto: JimmyPhamRes@gmail.com' className={`${styles.link} ${styles.email}`}>
           <Image src='/email.png' width={100} height={100} alt='email' />
           <p>JimmyPhamRes@gmail.com</p>
         </a>
