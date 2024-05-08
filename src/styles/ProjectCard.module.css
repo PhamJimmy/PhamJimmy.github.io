@@ -7,11 +7,14 @@
   color: black;
   background-color: white;
   border: 1px solid #6d6e7d;
-  border-radius: 3%;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .card > h1 {
   padding: 10px 0;
+  font-size: 1.75em;
 }
 
 .image {
@@ -21,6 +24,7 @@
 .stack {
   position: absolute;
   bottom: 65px;
+  padding-right: 20px;
 }
 
 .github {
